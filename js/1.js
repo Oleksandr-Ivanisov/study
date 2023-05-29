@@ -412,7 +412,7 @@ var Car = function (x, y) {
 };
 
 Car.prototype.draw = function () {
-    var carHtml = '<img src="http://nostarch.com/images/car.png">';
+    var carHtml = '<img src="img/car.png">';
    
     this.carElement = $(carHtml);
 
