@@ -425,7 +425,6 @@ Car.prototype.draw = function () {
     $("body").append(this.carElement);
 };
 
-
 Car.prototype.moveRight = function () {
     this.x += 5;
     this.carElement.css({
